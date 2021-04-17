@@ -2,9 +2,16 @@ const userInput = 15;
 let result;
 
 result = 18 + userInput;
-result = 30 - userInput * 30;
-result = 8 * userInput * 30;
-result = 9 + userInput + 2;
+console.log(result, "First result");
+
+result = 30 - result + 30 + 30;
+console.log(result, "second Result");
+
+result = 8 * result * 30;
+console.log(result, "Third Result");
+
+result = 9 + result / 2;
+console.log(result, "Fourth Result");
 
 alert(result);
 alert(userInput);
